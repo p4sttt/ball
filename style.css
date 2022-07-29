@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #272B4D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+}
+.cell{
+    border-radius: 5px;
+    background-color: #404980;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    width: 50%;
+    height: 50%;
+    background-color: #A393F5;
+    border-radius: 50%;
+}
